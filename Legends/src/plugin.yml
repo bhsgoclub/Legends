@@ -1,0 +1,167 @@
+name: Legends
+main: ShadovvMoon.Legend.Legends
+version: 1.0
+depend: [WorldGuard, PermissionsBukkit, iConomy]
+commands:
+    level:
+        description: Display your current levels
+        usage: /level
+    levels:
+        description: Display your current levels
+        usage: /levels
+    getLevels:
+        description: Display somebody elses levels
+        usage: /getLevels
+    resetPlayerName:
+        description: Display your current levels
+        usage: /resetPlayerName
+    createTask:
+        description: Display your current levels
+        usage: /createTask
+    verboseon:
+        description: Display experience gains
+        usage: /verboseon
+    verboseoff:
+        description: Hide experience gains
+        usage: /verboseoff
+    setLevel:
+        description: Display your current levels
+        usage: /createTask
+    resetPlayer:
+        description: Display experience gains
+        usage: /verboseon
+    sendTutorial:
+        description: Hide experience gains
+        usage: /verboseoff
+    set:
+        description: Set your location for teleporting using books.
+        usage: /set
+    who:
+        description: Show who is online
+        usage: /who
+    set:
+        description: Set your location for teleporting using books.
+        usage: /set
+    task:
+        description: The task command. I'm not writing a friggin description >_>
+        usage: /task <new|goal|aim>
+    setFlag:
+        description: The setflag command. I'm not writing a friggin description >_>
+        usage: /setFlag <flag> <player> <value>
+    nomad:
+        description: The nomad command. I'm not writing a friggin description >_>
+        usage: /nomad <player> (Removes the nomad thing from the player)
+    addGuide:
+        description: The addGuide command. I'm not writing a friggin description >_>
+        usage: /addGuide <player> (Enables use of the nomad cmd)
+    removeGuide:
+        description: The removeGuide command. I'm not writing a friggin description >_>
+        usage: /removeGuide <player> (Enables use of the nomad cmd)
+    addMod:
+        description: The addGuide command. I'm not writing a friggin description >_>
+        usage: /addMod <player> (Enables use of the nomad cmd)
+    removeMod:
+        description: The removeGuide command. I'm not writing a friggin description >_>
+        usage: /removeMod <player> (Enables use of the nomad cmd)
+    addLWC:
+        description: Gives the player another LWC to use
+        usage: /addLWC <player>
+    shop:
+        description: Do NOT use this command.
+        usage: /shop 
+    helmet:
+        description: Do NOT use this command.
+        usage: /helmet <type>
+    sneak:
+        description: Sneak around at normal speed.
+        usage: /sneak
+    tell:
+        description: Send a private message to somebody
+        usage: /tell
+    speak:
+        description: Send a private message to somebody
+        usage: /speak
+    sarah:
+        description: Send a private message to somebody
+        usage: /sarah
+    spec:
+        description: Send a private message to somebody
+        usage: /spec
+    pet:
+        description: Show your current pets
+        usage: /pet
+    citadel:
+        description: Teleports you to spawn
+        usage: /citadel
+    tutorial:
+        description: Teleports you to your current home location
+        usage: /tutorial
+    event:
+        description: Teleports you to the current event location
+        usage: /event
+    ekit:
+        description: Teleports you to the current event location
+        usage: /ekit
+    setEvent:
+        description: Creates an event or turns one off
+        usage: /setEvent
+    resetHouse:
+        description: resetHouse you to your current home location
+        usage: /resetHouse
+    town:
+        description: Access the town commands
+        usage: /town
+    potion:
+        description: Drink a potion
+        usage: /potion <type> <strength>
+    c:
+        description: Creative mode
+        usage: /c
+    s:
+        description: Survival mode
+        usage: /s
+    lvl:
+        description: Creative mode
+        usage: /lvl
+    exp:
+        description: Survival mode
+        usage: /exp
+    admin:
+        description: Annoy
+        usage: /annoy
+    drug:
+        description: Drug an annoying player
+        usage: /drug
+    pot:
+        description: Drug an annoying player
+        usage: /drug
+    mkick:
+        description: Creative mode
+        usage: /lvl
+    mban:
+        description: Survival mode
+        usage: /exp
+    munban:
+        description: Annoy
+        usage: /annoy
+    mtp:
+        description: Drug an annoying player
+        usage: /drug
+    mspawn:
+        description: Drug an annoying player
+        usage: /drug
+    mirror:
+        description: Mirror an annoying player
+        usage: /mirror
+    minestatus:
+        description: Mirror an annoying player
+        usage: /minestatus
+    clone:
+        description: Create a clone of a player (Added 10/1/12, ShadovvMoon)
+        usage: /clone
+    setSettlementFlag:
+        description: The setSettlementFlag command. I'm not writing a friggin description >_>
+        usage: /setSettlementFlag <flag> <player> <value>
+    resetSettlement:
+        description: The setSettlementFlag command. I'm not writing a friggin description >_>
+        usage: /setSettlementFlag <flag> <player> <value>
